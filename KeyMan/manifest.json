@@ -1,0 +1,22 @@
+{
+    "manifest_version":2,
+    "name":"KeyMan",
+    "version":"1.0",
+
+    "description": "KeyMan generates powerful passwords for you and keeps them safe in a volt",
+
+    "background":{
+        "scripts": ["background.js"]
+    },
+
+    "permissions": [
+        "webNavigation",
+        "storage"
+    ],
+
+    "browser_action":{
+        "default_icon": "icon.jpg",
+        "default_title":"keyman",
+        "default_popup":"view.html"
+    }
+}

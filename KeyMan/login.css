@@ -1,0 +1,27 @@
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.SecondPage {
+    align-items: center;
+    min-height: 450px; 
+    min-width: 250px;
+}
+
+#backbutton:hover {
+background-color: azure;
+}
+
+#backbutton {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Font size */
+    border: none; /* No border */
+    cursor: pointer; /* Cursor style on hover */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; 
+}
